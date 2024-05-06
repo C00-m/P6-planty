@@ -1,3 +1,35 @@
+2.0.45: 2024-05-03
+- Improvement: General fixes and improvements
+
+2.0.44: 2024-05-03
+- Improvement: General fixes and improvements
+
+2.0.43: 2024-05-02
+- Improvement: Better compatibility with Acowebs Product Labels For WooCommerce plugin
+- Improvement: Better integration with The Plus Elementor add-on and Single Product Quantity Input
+- Improvement: Don't apply hover color to mobile menu item if link is disabled
+- Improvement: Ignore attributes provided in tag name in blocksy_html_tag helper
+- Improvement: Ignore language packs fetching during Companion installation
+
+2.0.42: 2024-04-25
+- Improvement: Advanced Posts block shows "sticky" items in wrong order on the back end if query parameters are added
+- Improvement: Cart and checkout blocks - better inherit theme form styles
+- Fix: Featured image aspect ratio controls permanently disappear from the Gutenberg layout if "Grid + Cover" is previously selected
+- Fix: Single product lightbox does not work when product has only one image
+
+2.0.41: 2024-04-19
+- Improvement: Better calculate menu dropdown position on small desktop screens
+- Improvement: Correctly display star rating in "All Reviews" WooCommerce block
+
+2.0.40: 2024-04-18
+- Improvement: Add breadcrumbs layer in single product elements panel
+- Improvement: Make sure WooCommerce cart and checkout blocks inherit theme styles
+- Improvement: Make sure sticky header `z-index` doesn't conflict with Gutenberg image lightbox trigger
+- Improvement: Single product gallery - make lightbox trigger visibility to not depend on the zoom effect option
+- Fix: Archive cards reveal effect not triggered in some certain cases
+- Fix: Correctly output the `rel` attribute in author social links
+- Fix: Single product gallery - lightbox trigger does not disappear when turning it off
+
 2.0.39: 2024-04-11
 - Improvement: Better compatibility with WooCommerce Multilingual & Multicurrency plugin
 - Improvement: Better fit "More" item in responsive menu

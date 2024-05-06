@@ -333,6 +333,13 @@ var options = {
 			// header: buildProcess.headerFor(false, data),
 		},
 
+		// {
+		// 	input: 'static/sass/frontend/8-integrations/fluent-form.scss',
+		// 	output: 'static/bundle',
+		// 	filename: 'fluent-form.min',
+		// 	// header: buildProcess.headerFor(false, data),
+		// },
+
 		{
 			input: 'static/sass/frontend/8-integrations/stackable.scss',
 			output: 'static/bundle',
@@ -414,6 +421,13 @@ var options = {
 			input: 'static/sass/frontend/8-integrations/woocommerce/cart-header-element-lazy.scss',
 			output: 'static/bundle',
 			filename: 'cart-header-element-lazy.min',
+			// header: buildProcess.headerFor(false, data),
+		},
+
+		{
+			input: 'static/sass/frontend/8-integrations/woocommerce/blocks/main-cart-checkout-blocks.scss',
+			output: 'static/bundle',
+			filename: 'woocommerce-cart-checkout-blocks.min',
 			// header: buildProcess.headerFor(false, data),
 		},
 

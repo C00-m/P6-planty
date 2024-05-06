@@ -16,6 +16,9 @@
 
 
 <head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+	</style>
 	<?php do_action('blocksy:head:start') ?>
 
 	<meta charset="<?php bloginfo('charset'); ?>">
@@ -53,7 +56,6 @@
 
 
 			<?php
-			// menu de navigation 
 			wp_nav_menu(array(
 				'theme_location' => 'menu_mobile',
 				'container'      => 'nav',
@@ -62,6 +64,8 @@
 				'fallback_cb'    => false,
 			));
 			?>
+
+
 
 		</header>
 

@@ -1,10 +1,10 @@
 
 
-
 .header {
     display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
     justify-content: space-between; /* Répartit l'espace disponible entre le logo et le menu */
     align-items: center; /* Aligne verticalement les éléments du header */
+    height: 70px;
 }
 
 .logo {
@@ -18,21 +18,71 @@
 
 .menu-container {
     order: 2; /* Déplace le menu de navigation à l'extrême droite */
-    margin-right: 37px;
-
-
+    margin-right: -39px;
+    
 }
 
 .menu li {
     margin-right: 37px;
-    color: black;
+    color: #000000;
    
 }
 
 .menu li a {
     text-decoration: none;
-    color:#000000;
+    color: #000000;
+   
+    
+   
 }
+
+li.menu-item-180{
+    background-color: #E0B9B4;
+    width: 200px;
+    height: 70px;
+    padding: 9px 57px;
+  
+
+    
+}
+li.menu-item-180:hover{
+    background-color:#C02E44;
+
+}
+li.menu-item-180 a{
+   color: #FFFFFF;
+}
+li.menu-item-181:hover{
+    font-weight: bold;
+    font-size: 15px;
+   
+
+}
+
+/*Footer */
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px;
+    width: -100px;
+    
+}
+
+footer a {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif;
+ 
+    
+    
+}
+
+footer a:hover{
+    color: #000000;
+}
+
 
 /*page d'accueil cannette/feuilles */
 
@@ -67,7 +117,7 @@
 
 
 
-/*Titre des goûts page nous rencontrer*/
+/*Titre des goûts page commander*/
 .elementor-31 .elementor-element.elementor-element-f734c02 .elementor-heading-title{
 color:#FFFFFF;
 opacity: 1;
@@ -107,7 +157,29 @@ margin-top: -100px;
      margin-top: -100px;
 }
 
+/*Fleur formulaire de contact*/
+.elementor-widget-metform{
+    z-index: 5;
 
-.elementor-37 .elementor-element.elementor-element-63f727f h2.elementor-heading-title{
-    color: #000000;
+
 }
+
+.wp-image-452{
+    z-index: 2;
+    position: relative;
+   top: 48px;
+    left: -35px;
+
+}
+
+/*Quantité*/
+.elementor-counter{
+    background-color: #FFFFFF;
+    width: 39px;
+    height: 56px;
+    top: 523px;
+    left: 368px;
+    right: 100px;
+    padding-bottom: 5px;
+}
+

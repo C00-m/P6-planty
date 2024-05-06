@@ -50,7 +50,7 @@
 	will-change: transform, max-height;
 
 	> * {
-		cursor: pointer;
+		cursor: grab;
 	}
 
 	&[data-height='dynamic'] {
@@ -104,6 +104,9 @@
 
 // data type circle
 .flexy-pills[data-type='circle'] {
+	max-width: 180px;
+	margin-top: 30px;
+	margin-inline: auto;
 	
 	ol:not([data-flexy]),
 	ol[data-flexy*="paused"] {
