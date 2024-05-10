@@ -1,14 +1,14 @@
 
-
+/* Header */
 .header {
-    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
-    justify-content: space-between; /* Répartit l'espace disponible entre le logo et le menu */
-    align-items: center; /* Aligne verticalement les éléments du header */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     height: 70px;
 }
 
 .logo {
-    order: 1; /* Déplace le logo à l'extrême gauche */
+    order: 1; 
     width: 201px;
     height: 19px;
     margin-top: 20px;
@@ -17,7 +17,7 @@
 }
 
 .menu-container {
-    order: 2; /* Déplace le menu de navigation à l'extrême droite */
+    order: 2; 
     margin-right: -39px;
     
 }
@@ -89,16 +89,16 @@ footer a:hover{
 .wp-image-52{
     position: absolute;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Assure que la canette est au-dessus de la feuille */
+    z-index: 1; 
 }
 
 .wp-image-53{
     position: absolute;
     top: 50%;
-    left: 73%;
+    left: 76%;
     transform: translate(-50%, -50%);
-    z-index: 0; /* Assure que la feuille est derrière la canette */
-    width: auto; /* Ajustez la taille de la feuille selon vos besoins */
+    z-index: 0; 
+    width: auto; 
     margin-right: 100%;
    
 
@@ -106,7 +106,7 @@ footer a:hover{
 .wp-image-54{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 22%;
     transform: translate(-50%, -50%);
     z-index: 0; /* Assure que la feuille est derrière la canette */
     width: auto; /* Ajustez la taille de la feuille selon vos besoins */
@@ -121,39 +121,39 @@ footer a:hover{
 .elementor-31 .elementor-element.elementor-element-f734c02 .elementor-heading-title{
 color:#FFFFFF;
 opacity: 1;
-position: absolute; /* Position absolue pour placer le titre au-dessus de l'image */
-left: 95%; /* Centre le titre horizontalement */
-top: 50%; /* Centre le titre verticalement */
-transform: translate(-50%, -50%); /* Ajuste le positionnement pour le centrer parfaitement */
+position: absolute; 
+left: 95%; 
+top: 50%; 
+transform: translate(-50%, -50%); 
 margin-top: -100px;
 }
 
 .elementor-31 .elementor-element.elementor-element-65856b0 .elementor-heading-title{
 color:#FFFFFF;
 opacity: 1;
-position: absolute; /* Position absolue pour placer le titre au-dessus de l'image */
-left: 62%; /* Centre le titre horizontalement */
-top: 50%; /* Centre le titre verticalement */
-transform: translate(-50%, -50%); /* Ajuste le positionnement pour le centrer parfaitement */
+position: absolute; 
+left: 62%; 
+top: 50%; 
+transform: translate(-50%, -50%); 
 margin-top: -100px;
 }
   
 .elementor-31 .elementor-element.elementor-element-59eec00 .elementor-heading-title{
     color:#FFFFFF;
     opacity: 1;
-    position: absolute; /* Position absolue pour placer le titre au-dessus de l'image */
-    left: 40%; /* Centre le titre horizontalement */
-    top: 50%; /* Centre le titre verticalement */
-    transform: translate(-50%, -50%); /* Ajuste le positionnement pour le centrer parfaitement */
+    position: absolute; 
+    left: 40%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
     margin-top: -100px;
 }
 
 .elementor-31 .elementor-element.elementor-element-2381e16 .elementor-heading-title{
     color:#FFFFFF;
     opacity: 1;
-    position: absolute; /* Position absolue pour placer le titre au-dessus de l'image */
-    top: 50%; /* Centre le titre verticalement */
-    transform: translate(-50%, -50%); /* Ajuste le positionnement pour le centrer parfaitement */
+    position: absolute; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
      margin-top: -100px;
 }
 
