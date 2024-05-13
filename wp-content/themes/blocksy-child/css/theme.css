@@ -1,10 +1,65 @@
 
-/* Header */
+
+/* En-tête mobile*/
+@media screen and (max-width: 768px) {
+    .header{
+
+       display: flex;
+       flex-direction: column;
+      height: 90px;
+
+       
+        
+    }
+    .logo {
+        order: -1; 
+        width: 50px;
+        height: 15px;
+        margin: 20px 0 0 0; 
+        align-self: center;
+    }
+    .menu-container {
+        order: 1; 
+        margin: 20px 10px 20px 0px; 
+        width: 100%; 
+
+        
+    }
+    .menu li {
+        margin-right: 0; 
+        color: #000000;
+        font-family: 'Syne', sans-serif;
+        font-size: 13px;
+        display: block;
+        text-align: center; 
+        margin-bottom: 25px;
+       
+    }
+    li.menu-item-180{
+        background-color: #E0B9B4;
+        width: 260px;
+        height: 70px;
+        padding: 9px 57px;
+      
+    
+        
+    }
+    li.menu-item-180 a{
+        color: #FFFFFF;
+        margin-left: -20px;
+        height: 30px;
+     }
+     
+
+}
+
+    /*En-tête*/
 .header {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    height: 70px;
+    height: 66px;
+    
 }
 
 .logo {
@@ -25,6 +80,7 @@
 .menu li {
     margin-right: 37px;
     color: #000000;
+    font-family: 'Syne',sans-serif;
    
 }
 
@@ -62,11 +118,16 @@ li.menu-item-181:hover{
 /*Footer */
 
 footer {
-    text-align: center;
-    color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 25px; 
+   background-color: #FFFFFF;
+}
+
+.mention-legale {
     margin: 5px;
-    width: -100px;
-    
+    width: 200px;
 }
 
 footer a {
@@ -74,12 +135,10 @@ footer a {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Syne', sans-serif;
- 
-    
-    
+    margin-top: -10px;
 }
 
-footer a:hover{
+footer a:hover {
     color: #000000;
 }
 
@@ -108,8 +167,8 @@ footer a:hover{
     top: 50%;
     left: 22%;
     transform: translate(-50%, -50%);
-    z-index: 0; /* Assure que la feuille est derrière la canette */
-    width: auto; /* Ajustez la taille de la feuille selon vos besoins */
+    z-index: 0; 
+    width: auto; 
     margin-right: 100%;
    
     
@@ -117,45 +176,6 @@ footer a:hover{
 
 
 
-/*Titre des goûts page commander*/
-.elementor-31 .elementor-element.elementor-element-f734c02 .elementor-heading-title{
-color:#FFFFFF;
-opacity: 1;
-position: absolute; 
-left: 95%; 
-top: 50%; 
-transform: translate(-50%, -50%); 
-margin-top: -100px;
-}
-
-.elementor-31 .elementor-element.elementor-element-65856b0 .elementor-heading-title{
-color:#FFFFFF;
-opacity: 1;
-position: absolute; 
-left: 62%; 
-top: 50%; 
-transform: translate(-50%, -50%); 
-margin-top: -100px;
-}
-  
-.elementor-31 .elementor-element.elementor-element-59eec00 .elementor-heading-title{
-    color:#FFFFFF;
-    opacity: 1;
-    position: absolute; 
-    left: 40%; 
-    top: 50%; 
-    transform: translate(-50%, -50%); 
-    margin-top: -100px;
-}
-
-.elementor-31 .elementor-element.elementor-element-2381e16 .elementor-heading-title{
-    color:#FFFFFF;
-    opacity: 1;
-    position: absolute; 
-    top: 50%; 
-    transform: translate(-50%, -50%); 
-     margin-top: -100px;
-}
 
 /*Fleur formulaire de contact*/
 .elementor-widget-metform{
@@ -173,13 +193,16 @@ margin-top: -100px;
 }
 
 /*Quantité*/
-.elementor-counter{
+ .elementor-counter{
     background-color: #FFFFFF;
     width: 39px;
-    height: 56px;
+    height: 50px;
     top: 523px;
-    left: 368px;
+    left: 400px;
     right: 100px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
+    margin-left: 200px;
+    
 }
+
 
